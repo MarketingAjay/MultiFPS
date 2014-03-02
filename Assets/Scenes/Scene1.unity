@@ -314,6 +314,11 @@ MeshFilter:
   m_PrefabInternal: {fileID: 496394125}
   m_GameObject: {fileID: 719464233}
   m_Mesh: {fileID: 4300004, guid: e18fc1483d487435a8dd2611dffb1e0d, type: 3}
+<<<<<<< HEAD
+=======
+<<<<<<< Updated upstream
+=======
+>>>>>>> 5f190ee20ddc8d3f494d34d6020377d130babed7
 --- !u!1001 &839522206
 Prefab:
   m_ObjectHideFlags: 0
@@ -351,13 +356,21 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 9d4133d5d30b644bd87802a347eaccbe, type: 2}
       propertyPath: m_IsActive
+<<<<<<< HEAD
       value: 0
+=======
+      value: 1
+>>>>>>> 5f190ee20ddc8d3f494d34d6020377d130babed7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9d4133d5d30b644bd87802a347eaccbe, type: 2}
   m_RootGameObject: {fileID: 2144365762}
   m_IsPrefabParent: 0
   m_IsExploded: 1
+<<<<<<< HEAD
+=======
+>>>>>>> Stashed changes
+>>>>>>> 5f190ee20ddc8d3f494d34d6020377d130babed7
 --- !u!1 &880032233
 GameObject:
   m_ObjectHideFlags: 0
@@ -434,6 +447,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+<<<<<<< Updated upstream
 --- !u!1 &954004948
 GameObject:
   m_ObjectHideFlags: 0
@@ -446,6 +460,21 @@ GameObject:
   - 92: {fileID: 954004951}
   - 124: {fileID: 954004950}
   - 81: {fileID: 954004949}
+=======
+--- !u!1 &1209720522
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100004, guid: 9d4133d5d30b644bd87802a347eaccbe, type: 2}
+  m_PrefabInternal: {fileID: 839522206}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1209720523}
+  - 20: {fileID: 1209720528}
+  - 92: {fileID: 1209720527}
+  - 124: {fileID: 1209720526}
+  - 114: {fileID: 1209720525}
+  - 81: {fileID: 1209720524}
+>>>>>>> Stashed changes
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -453,6 +482,7 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< Updated upstream
 --- !u!81 &954004949
 AudioListener:
   m_ObjectHideFlags: 0
@@ -484,6 +514,73 @@ Camera:
   serializedVersion: 2
   m_ClearFlags: 1
   m_BackGroundColor: {r: .192156866, g: .301960796, b: .474509805, a: .0196078438}
+=======
+--- !u!4 &1209720523
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400004, guid: 9d4133d5d30b644bd87802a347eaccbe, type: 2}
+  m_PrefabInternal: {fileID: 839522206}
+  m_GameObject: {fileID: 1209720522}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: .907083511, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2144365763}
+--- !u!81 &1209720524
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 8100000, guid: 9d4133d5d30b644bd87802a347eaccbe,
+    type: 2}
+  m_PrefabInternal: {fileID: 839522206}
+  m_GameObject: {fileID: 1209720522}
+  m_Enabled: 1
+--- !u!114 &1209720525
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400006, guid: 9d4133d5d30b644bd87802a347eaccbe,
+    type: 2}
+  m_PrefabInternal: {fileID: 839522206}
+  m_GameObject: {fileID: 1209720522}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68ec2fe99d1108b9d0006a298d76c639, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  axes: 2
+  sensitivityX: 10
+  sensitivityY: 10
+  minimumX: 0
+  maximumX: 360
+  minimumY: -60
+  maximumY: 60
+--- !u!124 &1209720526
+Behaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 12400000, guid: 9d4133d5d30b644bd87802a347eaccbe,
+    type: 2}
+  m_PrefabInternal: {fileID: 839522206}
+  m_GameObject: {fileID: 1209720522}
+  m_Enabled: 1
+--- !u!92 &1209720527
+Behaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 9200000, guid: 9d4133d5d30b644bd87802a347eaccbe,
+    type: 2}
+  m_PrefabInternal: {fileID: 839522206}
+  m_GameObject: {fileID: 1209720522}
+  m_Enabled: 1
+--- !u!20 &1209720528
+Camera:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2000000, guid: 9d4133d5d30b644bd87802a347eaccbe,
+    type: 2}
+  m_PrefabInternal: {fileID: 839522206}
+  m_GameObject: {fileID: 1209720522}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: .19166474, g: .301966369, b: .474509805, a: 1}
+>>>>>>> Stashed changes
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
@@ -494,8 +591,13 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 0
+<<<<<<< Updated upstream
   orthographic size: 5
   m_Depth: -1
+=======
+  orthographic size: 100
+  m_Depth: 0
+>>>>>>> Stashed changes
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -503,6 +605,7 @@ Camera:
   m_TargetTexture: {fileID: 0}
   m_HDR: 0
   m_OcclusionCulling: 1
+<<<<<<< Updated upstream
 --- !u!4 &954004953
 Transform:
   m_ObjectHideFlags: 0
@@ -514,6 +617,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+<<<<<<< HEAD
 --- !u!1 &1209720522
 GameObject:
   m_ObjectHideFlags: 0
@@ -618,6 +722,9 @@ Camera:
   m_TargetTexture: {fileID: 0}
   m_HDR: 0
   m_OcclusionCulling: 1
+=======
+=======
+>>>>>>> 5f190ee20ddc8d3f494d34d6020377d130babed7
 --- !u!1 &1266422092
 GameObject:
   m_ObjectHideFlags: 0
@@ -676,6 +783,10 @@ Transform:
   m_LocalScale: {x: .400000006, y: .5, z: .400000006}
   m_Children: []
   m_Father: {fileID: 2144365763}
+<<<<<<< HEAD
+=======
+>>>>>>> Stashed changes
+>>>>>>> 5f190ee20ddc8d3f494d34d6020377d130babed7
 --- !u!1 &1300918350
 GameObject:
   m_ObjectHideFlags: 0
@@ -882,6 +993,11 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+<<<<<<< HEAD
+=======
+<<<<<<< Updated upstream
+=======
+>>>>>>> 5f190ee20ddc8d3f494d34d6020377d130babed7
 --- !u!1 &2144365762
 GameObject:
   m_ObjectHideFlags: 0
@@ -900,7 +1016,11 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
+<<<<<<< HEAD
   m_IsActive: 0
+=======
+  m_IsActive: 1
+>>>>>>> 5f190ee20ddc8d3f494d34d6020377d130babed7
 --- !u!4 &2144365763
 Transform:
   m_ObjectHideFlags: 0
@@ -1016,3 +1136,7 @@ CharacterController:
   m_SkinWidth: .0500000007
   m_MinMoveDistance: 0
   m_Center: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
+=======
+>>>>>>> Stashed changes
+>>>>>>> 5f190ee20ddc8d3f494d34d6020377d130babed7
