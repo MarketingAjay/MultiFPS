@@ -8,23 +8,38 @@ ModelImporter:
     100004: ball_MeshPart2
     100006: ball_MeshPart3
     100008: //RootNode
+    100010: ball_MeshPart4
+    100012: ball_MeshPart5
+    100014: ball_MeshPart6
     400000: ball_MeshPart0
     400002: ball_MeshPart1
     400004: ball_MeshPart2
     400006: ball_MeshPart3
     400008: //RootNode
+    400010: ball_MeshPart4
+    400012: ball_MeshPart5
+    400014: ball_MeshPart6
     2300000: ball_MeshPart0
     2300002: ball_MeshPart1
     2300004: ball_MeshPart2
     2300006: ball_MeshPart3
+    2300008: ball_MeshPart4
+    2300010: ball_MeshPart5
+    2300012: ball_MeshPart6
     3300000: ball_MeshPart0
     3300002: ball_MeshPart1
     3300004: ball_MeshPart2
     3300006: ball_MeshPart3
+    3300008: ball_MeshPart4
+    3300010: ball_MeshPart5
+    3300012: ball_MeshPart6
     4300000: ball_MeshPart0
     4300002: ball_MeshPart1
     4300004: ball_MeshPart2
     4300006: ball_MeshPart3
+    4300008: ball_MeshPart4
+    4300010: ball_MeshPart5
+    4300012: ball_MeshPart6
     7400000: Default Take
     9500000: //RootNode
   materials:
